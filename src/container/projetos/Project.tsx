@@ -1,5 +1,5 @@
 import { TitlePrimary } from "../../components/titulo/styles"
-import { ProjectsStyles } from "./styles"
+import { ButtonLink, Line, ProjectsStyles } from "./styles"
 
 
 export const Projects = () => {
@@ -10,26 +10,75 @@ export const Projects = () => {
       <ul>
         <ProjectsStyles>
 
-          <li>
+      <Line>
+      <li>
             <TitlePrimary>Nome do projeto</TitlePrimary>
             <p>
               descrição do projeto:
+              
             </p>
-          </li>
 
-          <li>
-            <TitlePrimary>Nome do projeto</TitlePrimary>
-            <p>
-              descrição do projeto:
-            </p>
+            <ButtonLink href="">Ver no Git</ButtonLink>
           </li>
+      </Line>
 
-          <li>
+      
+      <Line>
+      <li>
             <TitlePrimary>Nome do projeto</TitlePrimary>
             <p>
               descrição do projeto:
+              
             </p>
+
+            <ButtonLink href="">Ver no Git</ButtonLink>
           </li>
+      </Line>
+
+
+
+      <Line>
+      <li>
+            <TitlePrimary>Nome do projeto</TitlePrimary>
+            <p>
+              descrição do projeto:
+              
+            </p>
+
+            <ButtonLink href="">Ver no Git</ButtonLink>
+          </li>
+      </Line>
+
+
+
+      <Line>
+      <li>
+            <TitlePrimary>Nome do projeto</TitlePrimary>
+            <p>
+              descrição do projeto:
+              
+            </p>
+
+            <ButtonLink href="">Ver no Git</ButtonLink>
+          </li>
+      </Line>
+
+
+
+      <Line>
+      <li>
+            <TitlePrimary>Nome do projeto</TitlePrimary>
+            <p>
+              descrição do projeto:
+              
+            </p>
+
+            <ButtonLink href="">Ver no Git</ButtonLink>
+          </li>
+      </Line>
+
+
+          
 
         </ProjectsStyles>
       </ul>
