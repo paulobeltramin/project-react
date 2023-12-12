@@ -13,6 +13,7 @@ export const GlobalStyles = createGlobalStyle`
 
 body{
     padding-top:80px;
+    padding-bottom:80px;
 }
 
 `

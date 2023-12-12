@@ -1,14 +1,21 @@
-import { Container } from "./styles"
+import { Botao, Container, SideBarContainer } from "./styles"
 import { TitlePrimary } from "../../components/titulo/styles"
+import { Avatar } from "../avatar/Avatar"
 export const Sidebar = () => {
   return (
     <>
-      <div>
+      <SideBarContainer>
         <Container>
-          <img src="https://github.com/paulobeltramin.png" alt="foto perfil" />
+          <Avatar />
           <TitlePrimary fontSize={20}>paulobeltramin</TitlePrimary>
+          <TitlePrimary fontSize={14}>@Paulobeltramin</TitlePrimary>
+          <p>
+          "Dev Front-End"
+          </p>
+
+          <Botao>Mudar tema</Botao>
         </Container>
-      </div>
+      </SideBarContainer>
     </>
   )
 }
