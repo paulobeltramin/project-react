@@ -1,12 +1,12 @@
 import { Container } from "./styles"
-import { Title } from "../../components/titulo/Title"
+import { TitlePrimary } from "../../components/titulo/styles"
 export const Sidebar = () => {
   return (
     <>
       <div>
         <Container>
           <img src="https://github.com/paulobeltramin.png" alt="foto perfil" />
-          <Title fontSize={20}>paulobeltramin</Title>
+          <TitlePrimary fontSize={20}>paulobeltramin</TitlePrimary>
         </Container>
       </div>
     </>

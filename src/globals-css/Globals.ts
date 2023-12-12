@@ -18,6 +18,7 @@ body{
 `
 
 export const Container = styled.div`
+
 max-width:1024px;
 width:100%;
 margin:0 auto;
@@ -35,3 +36,4 @@ grid-template-columns: 180px auto;
 
 
 `
+

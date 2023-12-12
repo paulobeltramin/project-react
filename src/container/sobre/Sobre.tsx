@@ -1,12 +1,12 @@
 import { ContainerSobre } from "."
-import { Title } from "../../components/titulo/Title"
+import { TitlePrimary } from "../../components/titulo/styles"
 
 export const Sobre = () => {
     return (
         <>
             <ContainerSobre>
 
-                <Title>Sobre mim </Title>
+                <TitlePrimary>Sobre mim </TitlePrimary>
 
                 <div>
                     <p>

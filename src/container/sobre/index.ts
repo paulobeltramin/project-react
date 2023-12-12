@@ -1,12 +1,12 @@
 import styled from "styled-components";
-
 export const ContainerSobre = styled.div`
 
 h3{
     padding-bottom:16px;
+   
 
     @media screen and (max-width:768px){
-        padding-top:16px
+        padding-top:16px;
     }
 }
 
