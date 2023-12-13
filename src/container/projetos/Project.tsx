@@ -12,7 +12,10 @@ export const Projects = () => {
           <Line>
             <li>
               <TitlePrimary>Projeto VUE</TitlePrimary>
-              <img src="../images/calculator.png" alt="image" />
+              <img
+                src="https://images-server-tau.vercel.app/calculator.png"
+                alt="image"
+              />
               <Paragrafo>Calculadora criada em vueJS</Paragrafo>
               <a href="https://calc-vue-psi.vercel.app/">
                 <ButtonLink>Ver Projeto</ButtonLink>
@@ -23,7 +26,10 @@ export const Projects = () => {
           <Line>
             <li>
               <TitlePrimary>Projeto de Evento fictício</TitlePrimary>
-              <img src="../images/evento-ebac.png" alt="image" />
+              <img
+                src="https://images-server-tau.vercel.app/Evento-ebac.png"
+                alt="image"
+              />
               <Paragrafo>
                 Pagina de evento criada em html , sass ,javascript e o parcel.
               </Paragrafo>
@@ -36,7 +42,10 @@ export const Projects = () => {
           <Line>
             <li>
               <TitlePrimary>Projeto luc-closet</TitlePrimary>
-              <img src="../images/luc-closet.png" alt="image" />
+              <img
+                src="https://images-server-tau.vercel.app/Luc-closet.png"
+                alt="image"
+              />
               <Paragrafo>
                 landingPage criada utilizando html, css, e bootstrap.
               </Paragrafo>
