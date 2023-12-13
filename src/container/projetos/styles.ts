@@ -8,6 +8,7 @@ export const ProjectsStyles = styled.div`
   margin: 0 auto;
   list-style: none;
   line-height: 30px;
+  max-width: 100%;
 
   @media screen and (max-width: 768px) {
     display: grid;
@@ -28,6 +29,9 @@ export const ProjectsStyles = styled.div`
 export const Line = styled.li`
   border: 1px solid ${(props) => props.theme.borderColor};
   padding: 24px;
+  img {
+    width: 100%;
+  }
 `
 
 export const ButtonLink = styled.a`

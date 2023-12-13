@@ -34,3 +34,8 @@ export const SideBarContainer = styled.div`
   left: 0;
   position: sticky;
 `
+
+export const Image = styled.a`
+  font-size: 32px;
+  padding: 14px;
+`
